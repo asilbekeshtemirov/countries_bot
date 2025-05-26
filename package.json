@@ -20,6 +20,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@nestjs/class-transformer": "^0.4.0",
     "@nestjs/class-validator": "^0.13.4",
     "@nestjs/common": "^11.0.1",
     "@nestjs/config": "^4.0.2",
@@ -29,10 +30,7 @@
     "@nestjs/platform-express": "^11.0.1",
     "@nestjs/swagger": "^11.2.0",
     "axios": "^1.9.0",
-<<<<<<< HEAD
     "class-transformer": "^0.5.1",
-=======
->>>>>>> cd009b4 (country was completed)
     "class-validator": "^0.14.2",
     "mongoose": "^8.15.0",
     "reflect-metadata": "^0.2.2",

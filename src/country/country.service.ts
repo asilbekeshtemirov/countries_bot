@@ -17,7 +17,7 @@ export class CountryService {
     const foundedCountry = await this.countryModel.findOne({
       name: payload.name,
     });
-    if (!foundedCountry) {
+    if (foundedCountry) {
       throw new ConflictException('Country already exists!');
     }
     if (UserRole.ADMIN) {
